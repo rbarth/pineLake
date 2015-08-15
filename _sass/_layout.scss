@@ -1,0 +1,500 @@
+@charset "UTF-8";
+//
+// $purple: #543445;
+// $teal: #3C6D73;
+ $light-blue: #6BA7BF;
+ $dark-blue: #00306B;
+ $white: #F2F2F2;
+// $sans-serif: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+// $serif: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+//
+//...................general css styles
+//
+.site-header
+{
+	background-color: $dark-blue;
+  list-style-type: none;
+  height: 60px;
+
+  li
+  {
+    float: right;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+//
+//
+
+body
+{
+  background-color: red;
+	background: url('../images/lakeSample.JPG');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+	font-family: serif;
+}
+
+main
+{
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#container
+{
+  position: relative;
+  min-height:100%;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+h1, h2, h3
+{
+	font-family: serif;
+	text-align: center;
+	margin:0px;
+}
+
+h4, h5
+{
+	font-family: serif;
+	margin:0px;
+	font-weight: bold;
+	color: yellow;
+}
+
+h4
+{
+  text-align: center;
+}
+
+h1
+{
+	font-size: 72px;
+}
+
+// form
+// {
+// 	padding:40px;
+// 	background: rgba(0,0,0,.1);
+// 	border: 5px double rgba(255,255,255,1);
+// 	border-radius: 15px;
+// 	/* margin-bottom: 150px; */
+// }
+//
+textarea
+{
+ 	resize: vertical;
+}
+//
+// strong {
+//     font-family: $serif;
+//     font-size: 16px;
+//     color: $purple;
+// }
+//
+//
+// .btn-send
+// {
+//   background-color: rgba(84,52,69,1);
+//   color: white;
+// }
+//
+.navbar-nav
+{
+	float:none;
+	display: inline-block;
+}
+
+.navbar
+{
+  background: $white;
+	margin-bottom: 0px;
+  font-family: serif;
+  margin-top: 40px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.navbar-custom .navbar-nav > li > a
+{
+  color: blue;
+  font-size: 19px;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: purple;
+  background-color: transparent;
+   }
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 0;
+  padding-top:0;
+}
+
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.center-text
+{
+	text-align: center;
+}
+
+a
+{
+  color: purple;
+
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+footer
+{
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  margin-top: 20px;
+
+  span.glyphicon
+  {
+      font-size:20px;
+      // padding:5px;
+  }
+
+  // ul
+  // {
+  //   float: right;
+  //   padding-top: 10px;
+  //   padding-left: 10px;
+  // }
+  //
+  // li
+  // {
+  //   padding: 5px;
+  //   padding-right:10px;
+  //   display: inline;
+  // }
+
+  svg
+  {
+    width: 20px;
+    fill: white;
+  }
+
+  h2
+  {
+    text-align: left;
+  }
+}
+
+ //...................title page css
+
+#col1
+{
+  background-color: $white;
+}
+
+#col2
+{
+  background-color: $white;
+}
+
+#col3
+{
+  background-color: $white;
+}
+
+
+
+
+
+// #titleImg
+// {
+// 	background: url('../images/irisFun.svg');
+// 	background-size: cover;
+// }
+//
+// #titleBox
+// {
+//   color: #fff;
+//   position: relative;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   text-align: center;
+// }
+//
+// //...................contact page css
+// #contact-header
+// {
+// 	padding-top:50px;
+// }
+//
+//  #emailAddress, #emailName, #emailMessage
+//  {
+//  	color:#000;
+// 	background: rgba(255,255,255,.4);
+//  }
+//
+//
+// #emailAddress:focus, #emailName:focus, #emailMessage:focus
+// {
+//     background-color: rgba(255,255,255,.7);
+// }
+//
+// input::-webkit-input-placeholder
+// {
+// 	color: rgba(0,0,0,.5) !important;
+// }
+// input::-moz-placeholder
+// {
+// 	color: rgba(0,0,0,.5) !important;
+// }
+// input:-moz-placeholder
+// {   /* Older versions of Firefox */
+// 	color: rgba(0,0,0,.5) !important;
+// }
+// input:-ms-input-placeholder
+// {
+// 	color: rgba(0,0,0,.5) !important;
+// }
+//
+// textarea::-webkit-input-placeholder
+// {
+// 	color: rgba(0,0,0,.5) !important;
+// }
+// textarea::-moz-placeholder
+// {
+// 	color: rgba(0,0,0,.5) !important;
+// }
+// textarea:-moz-placeholder
+// {   /* Older versions of Firefox */
+// 	color: rgba(0,0,0,.5) !important;
+// }
+// textarea:-ms-input-placeholder
+// {
+// 	color: rgba(0,0,0,.5) !important;
+// }
+//
+// #contactMain
+// {
+// 	background: url('../images/beach.svg');
+// 	// background-size: cover;
+// 	// background-repeat: no-repeat;
+// 	// background-attachment: scroll;
+//   background-position: center top;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   margin: 0;
+//   padding: 0;
+// 	padding-top:50px;
+// }
+//
+// #contactLine
+// {
+// 	position:relative;
+// 	top: 20px;
+// 	color:rgba(84,52,69,1);
+// 	background: rgba(255,255,255,.7);
+// 	padding-top:5px;
+// 	padding-bottom:5px;
+// 	margin-bottom:5px;
+//
+// }
+//
+// #formArea
+// {
+// 	position: relative;
+//   margin-top: 50px;
+// }
+//
+//
+// //...................about page css
+//
+// #aboutMain
+// {
+// 	background: url('../images/palmTrees.svg');
+// background-position: center top;
+// background-repeat: no-repeat;
+// background-attachment: fixed;
+// background-size: cover;
+// -webkit-background-size: cover;
+// -moz-background-size: cover;
+// -o-background-size: cover;
+// margin: 0;
+// padding: 0;
+// }
+//
+// #aboutMe
+// {
+//  @extend .contentFormat;
+// }
+//
+//
+// //...................portfolio page css
+//
+// #portfolioMain
+// {
+// 	padding-top:100px;
+// }
+//
+// #site1
+// {
+// 	position: relative;
+// 	left: 10%;
+// 	width: 45%;
+// }
+//
+// #site2
+// {
+// 	position: relative;
+// 	/* left: 55%; */
+// 	width: 45%;
+// }
+//
+// #site3
+// {
+// 	position: relative;
+// 	left: 30%;
+// 	width: 45%;
+// }
+//
+// #portfolioSiteMain
+// {
+// 	background: url('../images/starsInTheSky.svg');
+//   background-position: center top;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// #portfolioContent
+// {
+//    @extend .contentFormat;
+// }
+//
+// #portfolioReturn
+// {
+// 	padding-right: 15px;
+// 	width: 70px;
+// }
+//
+// .cafeSlider
+// {
+//   width: 100%;
+// }
+//
+// //...................thoughts/blogs page css
+//
+// .post
+// {
+//   position: relative;
+//    @extend .contentFormat;
+// }
+//
+// #thoughtsMain
+// {
+// 	background: url('../images/cabin.svg');
+// 	// background-size: cover;
+// 	// background-repeat: no-repeat;
+// 	// background-attachment: scroll;
+//   background-position: center top;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// #postMain
+// {
+//   @extend #thoughtsMain;
+// }
+//
+//
+// .postTitle
+// {
+//   font-size: 20px;
+//
+// }
+//
+// //...................@media modifications
+//
+//
+// @media screen and (max-width: 400px)
+// {
+//     footer li
+//     {
+//         display:list-item;
+//         float:none;
+//     }
+//
+//     #footerLogo
+//     {
+//       width: 110px;
+//       margin-top: 8px;
+//     }
+// }
+//
+//
+// @media screen and (max-width: 768px)
+// {
+//   .navbar .navbar-brand
+//   {
+//     position: relative;
+//     left: 15px;
+//     margin-top: 5px;
+//     margin-bottom: 15px;
+//   }
+//
+//   #portfolioLink
+//   {
+//     padding-top: 0;
+//     margin-top: 55px;
+//   }
+//
+//   .navbar .navbar-collapse
+//   {
+//     border: 5px double rgba(255,255,255,1);
+//     border-radius: 15px;
+//     background-color: $teal;
+//   }
+// }
